@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to cube world!</title>
+    <script>
+        function exitProgram() {
+            window.close();
+        }
+    </script>
+    <style>
+        button {
+            width: 200px;
+            font-size: 15px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        #main {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" align="center">
+        <h2> Its cube Time!</h2>
+        <img id="gambar"
+        src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/homepage-dicoding-challenge-illustration.png"
+        alt="Its a rubiks cube!" width="150" height="100">
+        <p id="caption"><b>Sudah siap untuk memecahkan teka-teki permainan tersebut</b></p>
+        <div class="button-group">
+            <div class="button">
+                <a href="https://id.wikipedia.org/wiki/Kubus_Rubik"><button> Sejarah</button></a>
+            </div>
+            <da class="button">
+                <a href="https://rubikscu.be/#simulator"><button>Permainan</button></a>
+            </div>
+            <div class="button">
+                <button disabled="disabled"><i>Fun fact</i></button>
+            </div>
+            <div class="button">
+                <button disabled="disabled">Play (Coming Soon)</button>
+            </div>
+            <div class="button">
+                <button onclick="exitProgram()">Exit</button>
+            </div>
+        </div>
+    </div>
+    <hr size="2" width="95%" color="black">
+    <div id="links">
+        <p><b>Situs lainnya yang tidak kalah menarik:</b></p>
+        <ul>
+            <li><a href="http://www.dicoding.com" id="dicodingLink"><b>Belajar Programming di Dicoding</b></a></li>
+            <li><a href="http://www.google.com" id="googleLink"><b>Google</b></a></li>
+            <li><a href="https://www.instagram.com/xrshenn__/" id="googleLink"><b>Instagram</b></a></li>
+            <li><a href="https://www.tiktok.com/@sherinaaaja_" id="googleLink"><b>Tiktok</b></a></li>
+            <li><a href="https://www.youtube.com/@SherinaNurulFasha" id="googleLink"><b>Youtube</b></a></li>
+            <li><a href="https://www.linkedin.com/in/sherinanurulfasha/" id="googleLink"><b>Linkedin</b></a></li>
+            
+        </ul>
+    </div>
+    <div class="button">
+        <button onclick="alert('Halo, Apa kabar')">
+            Tekan Aku
+        </button>
+    </div>
+</body>
+</html>
